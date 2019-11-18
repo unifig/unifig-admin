@@ -1,0 +1,73 @@
+//  添加 reset-name 的类名
+// form 表单样式
+.reset-form {
+  padding-left: 30px;
+  clear: both;
+
+  .el-form-item {
+    // margin-right: 20px;
+  }
+}
+
+// 弹窗样式
+.reset-dialog {
+  .el-dialog {
+    min-width: 800px;
+
+    .el-dialog__header {
+      text-align: center;
+      line-height: 60px;
+      padding: 0;
+      font-size: 16px;
+      background: #ddd
+    }
+  }
+
+  // dialog 里面button
+  .el-button {
+    width: 90px;
+    padding: 0;
+    line-height: 40px;
+    margin-left: 20px;
+    border-radius: 20px
+  }
+
+  .el-button--default {
+    // background: #eee
+  }
+
+
+  .reset-table {
+    .el-table {
+      width: 100%;
+      padding-right: 30px;
+    }
+  }
+}
+
+//弹框里编辑的input
+.reset-auto-input {
+  .el-input.is-disabled .el-input__inner {
+    background-color: #fff;
+    // color: #606266;
+  }
+
+  // display: inline-block;
+  // border: 1px solid #eee;
+  // border-radius: 6px;
+  // width: 200px;
+  // height: 40px;
+  // line-height: 40px;
+  // padding-left: 20px;
+}
+
+.reset-auto-input-auto {
+  display: inline-block;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  width: 240px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 20px;
+  color: #606266
+}
